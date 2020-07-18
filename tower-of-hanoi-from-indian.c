@@ -15,4 +15,5 @@ void towers(int num, char frompeg, char topeg, char auxpeg){
     towers(num - 1, frompeg, auxpeg, topeg);
     printf("ディスク%dを %c から %cへ動かす\n", num, frompeg, topeg);
     towers(num - 1, auxpeg, topeg, frompeg);
+    
 }
